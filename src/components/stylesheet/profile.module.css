@@ -1,0 +1,11 @@
+img.logo{
+    height: 20rem;
+    width: 20rem;
+    margin-top: 2rem;
+}
+
+.flexbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

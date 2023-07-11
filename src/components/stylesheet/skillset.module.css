@@ -1,0 +1,33 @@
+.skillList{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skillImage {
+  width: auto;
+  height: 6rem;
+  margin-right: 2rem;
+}
+
+.imageText {
+  font-size: 3rem;
+  font-weight: bold;
+  border-left: solid 0.5rem var(--color-opposite);
+  background-color: #6aa16d18;
+  margin-right: 2rem;
+  padding: 0.5rem 1rem;
+}
+
+.flexbox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap:wrap;
+}
+
+.text{
+  font-size: 1.5rem;
+  margin: 1rem 1rem; 
+  font-family:HG創英角ﾎﾟｯﾌﾟ体;
+}

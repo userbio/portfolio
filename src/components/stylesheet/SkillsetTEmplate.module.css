@@ -1,0 +1,21 @@
+.skillItem {
+  max-width: 42rem;
+  color:#000000;
+  margin: 0rem 1.5rem 5rem 1.5rem;
+}
+  
+.skillName {
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: .1rem;
+  border-bottom: dashed 0.3rem #aad6ac;
+}
+
+.skillText {
+  font-size: 1.7rem;
+  line-height: 1.8;
+  margin: 2rem 0rem 2rem 0rem;
+}
+  
+
+  

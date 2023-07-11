@@ -1,0 +1,70 @@
+.workContentBox{
+    margin-top:5rem;
+    min-width: 53.5rem;
+    max-width: 90rem;
+  }
+  
+.workTitle {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  letter-spacing: .1em;
+
+  padding: 1rem 3rem;
+  background: #f4f4f4;
+  border-left: solid 0.7rem #7db4e6;
+  border-bottom: solid 0.3rem #d7d7d7;
+}
+
+.workContent {
+  max-width:100rem;
+  text-align: center;
+  font-size: 2.5rem;
+  flex-direction: column;
+}
+
+.mainVis{
+  margin: 0rem auto 3rem auto;
+}
+
+.mainVisContent{
+  height: 20rem;
+  width: 20rem;
+  border: 0.5rem solid #e6e6e6;
+  margin: auto 2rem;
+  object-fit: cover;
+}
+
+.workText{
+  max-width: 80rem;
+  font-size: 2rem;
+  letter-spacing: 0.01em;
+  line-height: 1.4;
+}
+
+.link{
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  font-size: 2rem;
+}
+
+.bigVisContent{
+  width: 70%;
+  max-width: 90rem;
+  padding: 3rem;
+  border: 0.5rem solid #e6e6e6;
+  margin: auto 2rem;
+  object-fit: cover;
+}
+
+.flexbox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.linkImage{
+  width: 5rem;
+  margin-left: 3rem;
+}

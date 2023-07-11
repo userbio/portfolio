@@ -1,0 +1,16 @@
+/* Works*/
+.worksList{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.worksItem {
+  max-width: 26rem;
+  margin: 1rem 3rem;
+  color:#000000
+}
+
+.worksItem:hover {
+  opacity: .9;
+}
