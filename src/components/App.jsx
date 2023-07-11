@@ -35,13 +35,13 @@ const About = () => (
 const Navbar = () => (
   <div className={classes.navContainer}>
       <nav className={`${classes.navbarBackground} ${classes.flexbox}`}>
-        <NavLink to="/" className={(navData) => (navData.isActive ? classes.active : classes.headerItem)}>Profile</NavLink>
+        <NavLink to="/portfolio" className={(navData) => (navData.isActive ? classes.active : classes.headerItem)}>Profile</NavLink>
         <NavLink to="/works" className={(navData) => (navData.isActive ? classes.active : classes.headerItem)}>Works</NavLink>
         <NavLink to="/skillSet" className={(navData) => (navData.isActive ? classes.active : classes.headerItem)}>Skill set</NavLink>
         <NavLink to="/contact" className={(navData) => (navData.isActive ? classes.active : classes.headerItem)}>Contact</NavLink>
       </nav>
       <Routes>
-        <Route path="/" element={<Profile />}/>
+        <Route path="/portfolio" element={<Profile />}/>
         <Route path="works" element={<Works />}>
           <Route path="line" element={<Line />} />
           <Route path="portfolio" element={<Portfolio />} />
