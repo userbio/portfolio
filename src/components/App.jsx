@@ -1,12 +1,12 @@
 import { NavLink, Route, Routes } from 'react-router-dom';
 
 import { Contact } from './contact.jsx';
+import faceIcon from './images/face.svg';
 import { Profile } from './profile.jsx';
 import { SkillSet } from './skillset.jsx';
 import classes from './stylesheet/App.module.css';
+import { Hardening, IPA, Line, Portfolio } from './workinfo.jsx';
 import { Works } from './works.jsx';
-
-import faceIcon from './images/face.svg';
 
 
 
@@ -41,10 +41,15 @@ const Navbar = () => (
         <NavLink to="/contact" className={(navData) => (navData.isActive ? classes.active : classes.headerItem)}>Contact</NavLink>
       </nav>
       <Routes>
-        <Route path="/" element={<Profile />} />
-        <Route path="/works" element={<Works />} />
-        <Route path="/skillSet" element={<SkillSet />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/" element={<Profile />}/>
+        <Route path="works" element={<Works />}>
+          <Route path="line" element={<Line />} />
+          <Route path="portfolio" element={<Portfolio />} />
+          <Route path="IPA" element={<IPA />} />
+          <Route path="hardening" element={<Hardening />} />
+        </Route>
+        <Route path="skillSet" element={<SkillSet />}/>
+        <Route path="contact" element={<Contact />}/>
       </Routes>
   </div>
 )
